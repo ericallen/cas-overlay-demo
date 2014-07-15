@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.leleuj</groupId>
-        <artifactId>cas-overlay-demo</artifactId>
+        <artifactId>cas-overlay</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>cas-overlay-server-demo</artifactId>
+    <artifactId>cas</artifactId>
     <packaging>war</packaging>
-    <name>CAS Overlay server demo</name>
-    <description>CAS Overlay server demo</description>
+    <name>CAS Server</name>
+    <description>CAS Overlay server</description>
     <dependencies>
         <dependency>
             <groupId>org.jasig.cas</groupId>
@@ -60,7 +60,7 @@
                     </webApp>
                     <contextHandlers>
                         <contextHandler implementation="org.eclipse.jetty.webapp.WebAppContext">
-                            <war>${basedir}/../cas-overlay-management-demo/target/cas-overlay-management-demo.war</war>
+                            <war>${basedir}/../cas-management/target/cas-management.war</war>
                             <contextPath>/cas-management</contextPath>
                         </contextHandler>
                     </contextHandlers>

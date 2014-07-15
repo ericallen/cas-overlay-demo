@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.leleuj</groupId>
-        <artifactId>cas-overlay-demo</artifactId>
+        <artifactId>cas-overlay</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>cas-overlay-management-demo</artifactId>
+    <artifactId>cas-management</artifactId>
     <packaging>war</packaging>
-    <name>CAS Overlay management demo</name>
-    <description>CAS Overlay management demo</description>
+    <name>CAS Management</name>
+    <description>CAS Overlay management</description>
     <dependencies>
         <dependency>
             <groupId>org.jasig.cas</groupId>
@@ -31,4 +31,3 @@
         </plugins>
     </build>
 </project>
-

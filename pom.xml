@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.leleuj</groupId>
-	<artifactId>cas-overlay-demo</artifactId>
+	<artifactId>cas-overlay</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>CAS Overlay demo</name>
-	<description>CAS Overlay demo</description>
+	<name>CAS Overlay Project</name>
+	<description>CAS Overlay</description>
 
 	<repositories>
 		<repository>
@@ -90,8 +90,8 @@
 		</pluginManagement>
 	</build>
 	<modules>
-		<module>cas-overlay-server-demo</module>
-		<module>cas-overlay-management-demo</module>
+		<module>cas-server</module>
+		<module>cas-management</module>
 	</modules>
 	<properties>
 		<cas.version>4.1.0-SNAPSHOT</cas.version>
