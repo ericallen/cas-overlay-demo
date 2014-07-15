@@ -37,6 +37,7 @@
             <artifactId>cas-server-core</artifactId>
             <type>test-jar</type>
         </dependency>
+
     </dependencies>
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -68,4 +69,3 @@
         </plugins>
     </build>
 </project>
-
